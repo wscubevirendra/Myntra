@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: Arial;
+}
+
+
+.myset:hover .my-absolute {
+    opacity: 1;
+}
+
+.my-absolute {
+    position: absolute;
+    display: none;
+}
+
+.myset:hover .my-absolute {
+    display: flex;
+}
+
+.item_count{
+    margin-right: 10px;
+}
